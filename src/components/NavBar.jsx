@@ -14,10 +14,10 @@ export const NavBar = () => {
             </Link>
             <input type="checkbox" id="menu" className="peer/menu hidden" />
     <label htmlFor="menu" className="w-10 h-10 bg-open-menu bg-cover bg-center bg-green-color rounded-lg cursor-pointer peer-checked/menu:bg-close-menu transition-all z-40 md:hidden"></label>
-    <ul className="text-xl absolute top-[70px]  px-[5%] gap-4 flex justify-between text-center mr-4 content-center justify-items-center  mb-10 clip-circle-0 peer-checked/menu:clip-circle-full transition-[clip-path] duration-500 md:clip-circle-full md:relative md:p-0 md:bg-transparent z-50">
-        <Link to="about">About Me</Link>
-        <Link to="projects">Projects</Link>
-        <Link to="contact">Contact</Link>
+    <ul className="text-xl absolute top-[70px]  px-[5%] gap-8 flex justify-between text-center mr-4 content-center justify-items-center  mb-10 clip-circle-0 peer-checked/menu:clip-circle-full transition-[clip-path] duration-500 md:clip-circle-full md:relative md:p-0 md:bg-transparent z-50">
+        <Link to="about" className="transition-transform transform hover:scale-110 text-2xl">About Me</Link>
+        <Link to="projects" className="transition-transform transform hover:scale-110 text-2xl  ">Projects</Link>
+        <Link to="contact" className="transition-transform transform hover:scale-110  text-2xl ">Contact</Link>
     </ul>
         </nav>
     )

@@ -12,12 +12,12 @@ export const Home = () => {
         <>
         <section className="pt-10 pb-16  md:flex justify-between items-center gap-8">
             <figure className="md:order-1 md:mx-auto">
-            <img src={logo} alt="Profile" className="w-[50%] mx-auto    object-cover electric-border rounded-full mb-10" />
+            <img src={logo} alt="Profile" className="w-[50%] mx-auto    object-cover electric-border rounded-full my-10" />
             </figure>
 
             <article className="text-center mt-8 md:w-1/2 md:text-left items-center px-4">
             <h1 className="text-3xl md:text-4xl">Hi, I am Ana Mosquera</h1>
-            <p className="text-gray-color text-2xl md:text-3xl mt-3 mb-6 text-gradient h-auto">Web Developer & Data Analyst</p>
+            <p className="text-gray-color text-3xl md:text-3xl mt-3 mb-6 text-gradient h-auto font-bold">Web Developer & Data Analyst</p>
 
             <div className="flex flex-col justify-items-center mb-8">
                 <p className="text-lg text-gray-color mx-auto w-[500] justify-items-center">

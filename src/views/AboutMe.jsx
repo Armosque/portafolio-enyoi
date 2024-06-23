@@ -51,10 +51,10 @@ export const AboutMe = () => {
                         <SiMongodb size="80" className="text-green-600 " />
                         <FaPython size="80" className="text-yellow-400 animate-moveUpDown" />
                         <FaNode size="90" className="text-green-600 animate-moveUpDown" />
-                        <SiScikitlearn size="80" className="text-orange-600 animate-moveUpDown" />
-                        <SiPowerbi size="80" className="text-blue-600 animate-moveUpDown" />
+                        <SiScikitlearn size="80" className="text-orange-600 " />
+                        <SiPowerbi size="80" className="text-blue-600 " />
                         <FaRegFileExcel size="80" className="text-green-600 animate-moveUpDown" />
-                        <TbSql size="80" className="text-blue-600 animate-moveUpDown" />
+                        <TbSql size="80" className="text-blue-600" />
                         <SiGooglebigquery size="80" className="text-blue-600 animate-moveUpDown" />
                     
                     </div>
