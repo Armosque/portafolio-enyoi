@@ -1,23 +1,20 @@
 
 
-body{
-    background-color: #2e364a;
-    margin-top: 25px;
-}
-
 .timeline{
 
     position: relative;
-    max-width: 50%;
-    
-    
+    max-width: 60%; 
+    margin-left: 25%;
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
 .container{
     padding: 10px 40px;
     position: relative;
-    width: 200px;
+    width: 300px;
     background: rgba(0,0,0,0.3);
     margin-top: 50px;
+    align-items: center;
 }
 .text-box{
     padding: 20px 30px;
@@ -37,28 +34,27 @@ body{
 .right-container{
     left: 98%;
 }
+.ol{
 
-.container .icon{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    background: #fff;
-    border-radius: 20%;
-    right: -12px;
-    top: 22px;
-    z-index: 1;
+    list-style:circle
 }
-.right-container .icon{
-    left: -12px;
-}
-.timeline::after{
-    content: '';
-    position: absolute;
-    width: 6px;
-    height: 100%;
-    background: #ece6e6;
-    top: 0;
-    left: 60%;
-    margin-left: -3px;
-    z-index: -1;
-}
+@media (max-width: 768px) {
+    .timeline {
+      max-width: 100%;
+    }
+  
+    .container {
+      width: 90%;
+      margin: 20px auto;
+    }
+  
+    .skills-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+      gap: 20px;
+    }
+  
+    .icon {
+      font-size: 60px;
+    }
+  }

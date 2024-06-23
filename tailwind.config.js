@@ -20,7 +20,16 @@ export default {
     backgroundImage: {
       "open-menu": "url('../assets/menu.svg')",
       "close-menu": "url('../assets/close.svg')",
-  },
+    },
+    animation: {
+      moveUpDown: 'moveUpDown 2s infinite',
+    },
+    keyframes: {
+      moveUpDown: {
+        '0%, 100%': { transform: 'translateY(0)' },
+        '50%': { transform: 'translateY(-10px)' },
+      }
+    }
 
     },
   },

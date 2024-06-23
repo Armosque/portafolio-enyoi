@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-  background-color: black;
+  background-color: rgb(28, 27, 27);
 }
 
 @layer base{
@@ -20,3 +20,48 @@ body{
 .clip-circle-full{
   clip-path: circle(150% at top right);
 }}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 50% 70%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.text-gradient {
+  background: linear-gradient(270deg, #e50965, #e2f34e, #a10bdc, #6219d7);
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes electric-border {
+  0%, 100% {
+    box-shadow: 
+      0 0 20px rgba(255, 0, 255, 0.8), 
+      0 0 30px rgba(255, 0, 255, 0.6), 
+      0 0 40px rgba(0, 255, 255, 0.4), 
+      0 0 50px rgba(0, 255, 255, 0.2),
+      0 0 60px rgba(0, 255, 255, 0.1),
+      0 0 70px rgba(255, 0, 255, 0.05);
+  }
+  50% {
+    box-shadow: 
+      0 0 20px rgba(0, 255, 255, 0.8), 
+      0 0 30px rgba(0, 255, 255, 0.6), 
+      0 0 40px rgba(255, 0, 255, 0.4), 
+      0 0 50px rgba(255, 0, 255, 0.2),
+      0 0 60px rgba(255, 0, 255, 0.1),
+      0 0 70px rgba(0, 255, 255, 0.05);
+  }
+}
+
+.electric-border {
+  animation: electric-border 2s infinite alternate;
+}

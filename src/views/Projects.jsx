@@ -1,7 +1,13 @@
 
+import {PauseOnHover} from '../components/PauseOnHover'
+
 
 export const Projects = () => {
     return (
-        <div>Projects</div>
+
+            <PauseOnHover/>
+
+    
+        
     )
 }
