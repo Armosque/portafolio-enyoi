@@ -18,7 +18,7 @@ export const ProjectDetails = () => {
             <div className="md:w-1/2 w-full md:pl-12">
             <h2 className="text-3xl font-bold mb-4">{project.nombre}</h2>
             <p className="text-lg">{project.descripcion}</p>
-            <div className="flex flex-row mt-4 gap-4">
+            <div className="flex flex-row mt-4 gap-4 items-center">
                 <a href="/enConstruccion" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={40} className="text-black-500 transition-transform transform hover:scale-110 mt-4"/>
                 </a>
