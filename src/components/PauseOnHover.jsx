@@ -23,29 +23,24 @@ export function PauseOnHover() {
         pauseOnHover: true
     };
 
-    //const images = [img1, img2, img3, img4, img5, img6];
-
-
-
-
 
     return (
-        
-        <div className="mt-28">
-            <h2 className="text-3xl md:text-3xl pb-20">Projects</h2>
-            <Slider {...settings}>
-                {projectsData.map((image) => (
-                <div key={image.id} className="flex justify-center items-center">
+        <div>
+        <h2 className="text-3xl md:text-3xl my-20">Projects</h2>
+        <Slider {...settings}>
+            {projectsData.map((image) => (
+                <div key={image.id} className="flex justify-center items-center px-2">
                     <Link to={`/projects/${image.id}`}>
                         <img 
                             src={image.img} 
                             alt={`Slide ${image.nombre}`} 
-                            className="w-96 h-52 object-cover transition-transform transform hover:scale-110" 
-                            />
+                            className="w-96 h-52 object-cover transition-transform transform hover:scale-105" 
+                        />
                     </Link>
                 </div>
-                ))}
-            </Slider>
-        </div>
+            ))}
+        </Slider>
+    </div>
+    
     );
 }

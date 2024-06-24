@@ -31,7 +31,7 @@ export const Footer = () => {
             
         </div>
         <div>
-            <p className="text-center mt-5 mb-5">Copyright © 2022 - Desing By AML</p>
+            <p className="text-center mt-5 mb-5">Copyright © 2024 - Desing By AML</p>
         </div>
         
         </footer>
