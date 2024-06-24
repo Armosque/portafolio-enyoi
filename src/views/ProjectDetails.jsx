@@ -20,10 +20,10 @@ export const ProjectDetails = () => {
             <h2 className="text-xl font-bold mb-4">{project.nombre}</h2>
             <p className="text-lg text-justify">{project.descripcion}</p>
             <div className="flex flex-row mt-4 gap-4 items-center">
-                <Link to="/enConstruccion" target="_blank" rel="noopener noreferrer">
+                <Link to="https://es.wikipedia.org/wiki/Archivo:Proyecto_en_construccion.jpg" target="_blank" rel="noopener noreferrer">
                     <FaGithub size={40} className="text-black-500 transition-transform transform hover:scale-110 mt-4"/>
                 </Link>
-                <Link to="/enConstruccion" target="_blank" rel="noopener noreferrer">
+                <Link to="https://es.wikipedia.org/wiki/Archivo:Proyecto_en_construccion.jpg" target="_blank" rel="noopener noreferrer">
                     <CiLink size={50} className="text-black-500 transition-transform transform hover:scale-110 mt-4"/>
                 </Link>
             </div>

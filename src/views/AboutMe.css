@@ -22,10 +22,11 @@
     background: rgba(255,255,255,0.3);
     color: #fff;
     border-radius: 6px;
-    font-size: 18px;
+    font-size: 15px;
 }
 .text-box >h1{
-    font-size: 25px;
+    font-size: 20px;
+    margin-bottom: 10px;
     
 }
 .left-container{
@@ -34,10 +35,7 @@
 .right-container{
     left: 98%;
 }
-.ol{
 
-    list-style:circle
-}
 @media (max-width: 768px) {
     .timeline {
       max-width: 100%;
@@ -54,7 +52,5 @@
       gap: 20px;
     }
   
-    .icon {
-      font-size: 60px;
-    }
+
   }
