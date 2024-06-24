@@ -21,10 +21,10 @@ export const ProjectDetails = () => {
             <p className="text-lg text-justify">{project.descripcion}</p>
             <div className="flex flex-row mt-4 gap-4 items-center">
                 <Link to="/enConstruccion" target="_blank" rel="noopener noreferrer">
-                <FaGithub size={40} className="text-black-500 transition-transform transform hover:scale-110 mt-4"/>
+                    <FaGithub size={40} className="text-black-500 transition-transform transform hover:scale-110 mt-4"/>
                 </Link>
                 <Link to="/enConstruccion" target="_blank" rel="noopener noreferrer">
-                <CiLink size={50} className="text-black-500 transition-transform transform hover:scale-110 mt-4"/>
+                    <CiLink size={50} className="text-black-500 transition-transform transform hover:scale-110 mt-4"/>
                 </Link>
             </div>
 
