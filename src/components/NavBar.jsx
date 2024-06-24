@@ -8,16 +8,16 @@ export const NavBar = () => {
             <div className="flex items-center gap-3">
                 
                 <img src={logo} alt="logo" className="w-43 h-10 transition-transform transform hover:scale-110"/>
-                <h1 className="text-xl font-bold transition-transform transform hover:scale-110 md:text-2xl">Full Stack</h1>
+                <h1 className="text-xl font-bold transition-transform transform hover:scale-105 md:text-2xl">Full Stack</h1>
             </div>
                 
             </Link>
             <input type="checkbox" id="menu" className="peer/menu hidden" />
     <label htmlFor="menu" className="w-10 h-10 bg-open-menu bg-cover bg-center bg-green-color rounded-lg cursor-pointer peer-checked/menu:bg-close-menu transition-all z-40 md:hidden"></label>
     <ul className="text-xl absolute top-[70px]  px-[5%] gap-8 flex justify-between text-center mr-4 content-center justify-items-center  mb-10 clip-circle-0 peer-checked/menu:clip-circle-full transition-[clip-path] duration-500 md:clip-circle-full md:relative md:p-0 md:bg-transparent z-50">
-        <Link to="about" className="transition-transform transform hover:scale-110 text-xl">About Me</Link>
-        <Link to="projects" className="transition-transform transform hover:scale-110 text-xl  ">Projects</Link>
-        <Link to="contact" className="transition-transform transform hover:scale-110  text-xl ">Contact</Link>
+        <Link to="about" className="transition-transform transform hover:scale-110 text-base">About Me</Link>
+        <Link to="projects" className="transition-transform transform hover:scale-110 text-base  ">Projects</Link>
+        <Link to="contact" className="transition-transform transform hover:scale-110  text-base">Contact</Link>
     </ul>
         </nav>
     )
