@@ -20,7 +20,7 @@ export const Home = () => {
                 <p className="text-gray-color  md:text-3xl mt-3 mb-6 text-gradient h-auto font-extrabold">Web Developer & Data Analyst</p>
 
                 <div className="flex flex-col justify-items-center mb-8">
-                    <p className="text-base text-gray-color mx-auto w-[400] justify-items-center text-justifymd:text-sm">
+                    <p className="text-base text-gray-color mx-auto w-[400] justify-items-center text-justify md:text-sm">
                     Apasionada total por la tecnología, la programación, los datos, la automatización, el No Code, la RPA, el Machine Learning y la aplicación de la IA en las soluciones empresariales.
                     Mi viaje hasta aquí ha sido impulsado por una curiosidad insaciable y una determinación constante por aprender y crecer.
                     </p>
