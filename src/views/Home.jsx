@@ -6,6 +6,7 @@ import { SiJavascript, SiMongodb, SiScikitlearn, SiPowerbi, SiGooglebigquery } f
 import { MdCss } from "react-icons/md";
 import { TbSql } from "react-icons/tb";
 import { Projects } from "../views/Projects";
+import {Link} from "react-router-dom";
 
 export const Home = () => {
     return (
@@ -30,9 +31,9 @@ export const Home = () => {
                     <a href={CV} download="CV" className="bg-green-color flex items-center justify-center py-2 px-4  md:w-[50%] h-auto">
                     Download CV
                     </a>
-                    <a href="/about" className="flex items-center justify-center border-white border py-2 px-4  md:w-[50%] h-auto">
+                    <Link to="/about" className="flex items-center justify-center border-white border py-2 px-4  md:w-[50%] h-auto">
                     Learn More
-                    </a>
+                    </Link>
                 </div>
             </article>
         </section>

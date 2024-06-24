@@ -2,6 +2,7 @@ import {useParams} from 'react-router-dom'
 import {projectsData} from '../data/projectsData'
 import { FaGithub} from "react-icons/fa";
 import { CiLink } from "react-icons/ci";
+import {Link} from 'react-router-dom'
 
 export const ProjectDetails = () => {
     const {id} = useParams()
@@ -16,15 +17,15 @@ export const ProjectDetails = () => {
             <img src={project.img} alt={project.nombre} className="w-full rounded-lg shadow-lg max-w-xs md:max-w-sm transition-transform transform hover:scale-110" />
         </div>
             <div className="md:w-1/2 w-full md:pl-12">
-            <h2 className="text-2xl font-bold mb-4">{project.nombre}</h2>
+            <h2 className="text-xl font-bold mb-4">{project.nombre}</h2>
             <p className="text-lg text-justify">{project.descripcion}</p>
             <div className="flex flex-row mt-4 gap-4 items-center">
-                <a href="/enConstruccion" target="_blank" rel="noopener noreferrer">
+                <Link to="/enConstruccion" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={40} className="text-black-500 transition-transform transform hover:scale-110 mt-4"/>
-                </a>
-                <a href="/enConstruccion" target="_blank" rel="noopener noreferrer">
+                </Link>
+                <Link to="/enConstruccion" target="_blank" rel="noopener noreferrer">
                 <CiLink size={50} className="text-black-500 transition-transform transform hover:scale-110 mt-4"/>
-                </a>
+                </Link>
             </div>
 
         </div>
