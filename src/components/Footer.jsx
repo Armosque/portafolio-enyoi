@@ -43,7 +43,7 @@ export const Footer = () => {
                 
                     <div>
                         <hr className="w-full mb-2"/>
-                        <p className="text-center text-sm"> Diseñado por Ana Mosquera</p>
+                        <p className="text-center text-sm"> armosqueral@yahoo.es</p>
                        
                         <p className="text-center text-sm mb-[20px]">Copyright © 2024
                         </p>

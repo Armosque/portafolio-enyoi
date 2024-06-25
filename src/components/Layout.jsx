@@ -6,7 +6,7 @@ export const Layout = () => {
     return (
         <div className="site-wrapper">
         <NavBar />
-        <main>
+        <main className="w-[100%] justify-center items-center  sm:mr-0 ">
             <Outlet />
         </main>
         <Footer/>

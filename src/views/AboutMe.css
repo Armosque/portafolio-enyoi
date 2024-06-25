@@ -11,18 +11,19 @@
 .container{
     padding: 10px 40px;
     position: relative;
-    width: 300px;
+    width: 450px;
     background: rgba(0,0,0,0.3);
     margin-top: 50px;
     align-items: center;
 }
 .text-box{
-    padding: 20px 30px;
+    padding: 10px 20px;
     position: relative;
     background: rgba(255,255,255,0.3);
     color: #fff;
     border-radius: 6px;
     font-size: 15px;
+    width: 100%;
 }
 .text-box >h1{
     font-size: 20px;
@@ -42,8 +43,13 @@
     }
   
     .container {
-      width: 90%;
+      width: 100%;
       margin: 20px auto;
+      justify-content: center;
+    }
+  
+    .text-box {
+      font-size: 14px;
     }
   
     .skills-container {
