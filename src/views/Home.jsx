@@ -1,5 +1,5 @@
 import logo from "../assets/perfil11.jpg";
-import CV from "../assets/CV-AML.pdf";
+import CV from "../assets/CVDef.pdf";
 //import { FaHtml5, FaPython, FaNode, FaRegFileExcel } from "react-icons/fa";
 //import { RiReactjsFill } from "react-icons/ri";
 //import { SiJavascript, SiMongodb, SiScikitlearn, SiPowerbi, SiGooglebigquery } from "react-icons/si";
