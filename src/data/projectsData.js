@@ -1,5 +1,5 @@
 export const projectsData = [
-    // Proyectos en React
+    
     {
         id: 1,
         nombre: "Aplicación de Gestión de Tareas",
@@ -10,10 +10,10 @@ export const projectsData = [
     },
     {
         id: 2,
-        nombre: "Tienda en Línea",
-        descripcion: "Una tienda en línea con funcionalidades como navegación de productos, carrito de compras y sistema de pagos simulado. Este proyecto demuestra habilidades en React Router, manejo de estado, integración de API y diseño responsivo.",
-        img:"https://i.ibb.co/JBqsSTN/p2.jpg",
-        git:""
+        nombre: "Data Sintética con CTGAN",
+        descripcion: "En este proyecto pone en práctica una técnica avanzada para la generación de datos sintéticos que preserva las propiedades estadísticas y las relaciones entre las variables presentes en el conjunto de datos original. Se basa en la arquitectura GAN, que consta de dos redes neuronales: un generador y un discriminador.",
+        img:"https://i.ibb.co/174LydS/ml4.jpg",
+        colab:"https://colab.research.google.com/drive/18gu3dO0cX76lmWqxEoMbDWqorSuxD11-?usp=sharing"
     },
     {
         id: 3,
@@ -25,7 +25,6 @@ export const projectsData = [
 
     },
 
-    // Proyectos en Machine Learning
     {
         id: 4,
         nombre: "Análisis Clustering con K-means y PCA",
@@ -35,16 +34,17 @@ export const projectsData = [
     },
     {
         id: 5,
-        nombre: "Análisis Exploratorrio de Datos (EDA)",
+        nombre: "Análisis Exploratorio de Datos (EDA)",
         descripcion: "Este proyecto se centra en el Análisis Exploratorio de Datos (EDA) aplicado al conjunto de datos Supermarket sales. El objetivo es obtener una comprensión profunda de los datos, para ello se usan las librerias pandas, numpy, matplotlib, seaborn y ProfileReport. A través de diversas técnicas y herramientas de visualización y análisis, este proyecto proporciona una visión integral del comportamiento de las ventas y otros aspectos relevantes del negocio. ",
         img:"https://i.ibb.co/hckgYXT/ml2.jpg",
         colab:"https://colab.research.google.com/drive/1N1iT9Fh84g0KwRKnjfBIPE6E93Sw9e4X?usp=sharing"
     },
     {
         id: 6,
-        nombre: "Análisis de Sentimientos",
-        descripcion: "Una aplicación que analiza el sentimiento de comentarios o reseñas y muestra los resultados de forma gráfica. Este proyecto muestra habilidades en procesamiento del lenguaje natural (NLP), visualización de datos e integración de backend.",
-        img:"https://i.ibb.co/Qm4BkW1/p7.jpg"
+        nombre: "Predicción del Rendimiento Academico con AutoML Pycaret",
+        descripcion: "Este proyecto se centra en la predicción del rendimiento académico utilizando  datos de una universidad pública. El objetivo es construir modelos que puedan predecir el desempeño académico de los estudiantes con base en diversas variables usando Pycaret.",
+        img:"https://i.ibb.co/c18MWLL/ml3.jpg",
+        colab:"https://colab.research.google.com/drive/1MbER56pazRBXTMzEsoxZmIAWEB5_wzpX?usp=sharing"
     }
 ];
 
