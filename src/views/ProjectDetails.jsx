@@ -26,12 +26,12 @@ export const ProjectDetails = () => {
 
                 { project.git ? <FaGithub size={40} className="text-black-500 transition-transform transform hover:scale-110 mt-4"/> : 
                 <SiGooglecolab size={40} className="text-black-500 transition-transform transform hover:scale-110 mt-4"/>
-                
                 }
-                    
                 </Link>
-                <Link to={project.deploy || "https://es.wikipedia.org/wiki/Archivo:Proyecto_en_construccion.jpg"} target="_blank" rel="noopener noreferrer">
-                    <CiLink size={50} className="text-black-500 transition-transform transform hover:scale-110 mt-4"/>
+                
+                <Link to={project.deploy} target="_blank" rel="noopener noreferrer">
+                {project.deploy ? <CiLink size={50} className="text-black-500 transition-transform transform hover:scale-110 mt-4"/> : ''}
+        
                 </Link>
             </div>
 
