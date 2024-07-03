@@ -19,7 +19,7 @@ export const Footer = () => {
                             <Link to="https://www.linkedin.com/in/ana-mosquera-99aml/" target="_blank" rel="noopener noreferrer">
                                 <CiLinkedin size={30} className="text-blue-500 transition-transform transform hover:scale-110"/>
                             </Link>
-                            <Link to="https://github.com/Armosque" target="_blank" rel="noopener noreferrer">
+                            <Link to="https://github.com/Armosque?tab=repositories" target="_blank" rel="noopener noreferrer">
                                 <FaGithub size={30} className="text-black-500 transition-transform transform hover:scale-110"/>
                             </Link>
                             <Link to="https://api.whatsapp.com/send?phone=+573014349681&text=Hola%20estoy%20interesado%20en%20tu%20proyecto" target="_blank" rel="noopener noreferrer">
@@ -27,24 +27,13 @@ export const Footer = () => {
                             </Link>
 
                         </div>
-                        {/*<div className="">
-                            <Link to="/">
-                                <h2 className="text-sm transition-transform transform hover:scale-110">Home</h2>
-                            </Link>
-                            <Link to="/about">
-                                <h2 className="text-sm transition-transform transform hover:scale-110">About</h2>
-                            </Link>
-                            <Link to="/contact">
-                                <h2 className="text-sm transition-transform transform hover:scale-110">Contact</h2>
-                            </Link>
-                            
-                        </div>*/}
+                        
                     </div>
                 
                     <div>
                         <hr className="w-full mb-2"/>
                         <p className="text-center text-sm"> armosqueral@yahoo.es</p>
-                       
+                    
                         <p className="text-center text-sm mb-[20px]">Copyright © 2024
                         </p>
                     </div>
