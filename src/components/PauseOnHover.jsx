@@ -36,6 +36,7 @@ export function PauseOnHover() {
                             alt={`Slide ${image.nombre}`} 
                             className="w-96 h-52 object-cover transition-transform transform hover:scale-105" 
                         />
+                        <h2>{image.nombre}</h2>
                     </Link>
                 </div>
             ))}

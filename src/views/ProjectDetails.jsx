@@ -3,6 +3,7 @@ import {projectsData} from '../data/projectsData'
 import { FaGithub} from "react-icons/fa";
 import { CiLink } from "react-icons/ci";
 import {Link} from 'react-router-dom'
+import { SiGooglecolab } from "react-icons/si";
 
 export const ProjectDetails = () => {
     const {id} = useParams()
@@ -20,10 +21,16 @@ export const ProjectDetails = () => {
             <h2 className="text-xl font-bold mb-4">{project.nombre}</h2>
             <p className="text-lg text-justify">{project.descripcion}</p>
             <div className="flex flex-row mt-4 gap-4 items-center">
-                <Link to="https://es.wikipedia.org/wiki/Archivo:Proyecto_en_construccion.jpg" target="_blank" rel="noopener noreferrer">
-                    <FaGithub size={40} className="text-black-500 transition-transform transform hover:scale-110 mt-4"/>
+                <Link to={project.git || project.colab || "https://es.wikipedia.org/wiki/Archivo:Proyecto_en_construccion.jpg" } 
+                target="_blank" rel="noopener noreferrer">
+
+                { project.git ? <FaGithub size={40} className="text-black-500 transition-transform transform hover:scale-110 mt-4"/> : 
+                <SiGooglecolab size={40} className="text-black-500 transition-transform transform hover:scale-110 mt-4"/>
+                
+                }
+                    
                 </Link>
-                <Link to="https://es.wikipedia.org/wiki/Archivo:Proyecto_en_construccion.jpg" target="_blank" rel="noopener noreferrer">
+                <Link to={project.deploy || "https://es.wikipedia.org/wiki/Archivo:Proyecto_en_construccion.jpg"} target="_blank" rel="noopener noreferrer">
                     <CiLink size={50} className="text-black-500 transition-transform transform hover:scale-110 mt-4"/>
                 </Link>
             </div>
