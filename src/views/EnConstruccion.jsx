@@ -1,14 +1,15 @@
-import { Link } from "react-router-dom"
-import img from "../assets/c1.png"
+import { Link } from "react-router-dom";
+import img from "../assets/c1.png";
 
 export const EnConstruccion = () => {
-    return (
-        <div className="flex flex-col justify-center items-center mt-20 ">
-            <Link to="/" className="link-button">
-                <button className=" hover:bg-blue-700 text-white font-bold text-lg my-6 px-4 rounded">Return to Home</button>
-            </Link>
-            <img src={img} alt="404" className="w-[60%]"/>
-        
-        </div>
-    )
-}
+  return (
+    <div className="flex flex-col justify-center items-center mt-20 ">
+      <Link to="/" className="link-button">
+        <button className=" hover:bg-blue-700 text-white font-bold text-lg my-6 px-4 rounded">
+          Return to Home
+        </button>
+      </Link>
+      <img src={img} alt="404" className="w-[60%]" />
+    </div>
+  );
+};
