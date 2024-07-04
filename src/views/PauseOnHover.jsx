@@ -3,12 +3,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { projectsData } from "../data/projectsData";
 import { Link } from "react-router-dom";
-//import img1 from '../assets/p1.jpg';
-//import img2 from '../assets/p2.jpg';
-//import img3 from '../assets/p6.jpg';
-//import img4 from '../assets/p4.jpg';
-//import img5 from '../assets/p5.jpg';
-//import img6 from '../assets/p7.jpg';
 
 export function PauseOnHover() {
   const settings = {
@@ -23,8 +17,8 @@ export function PauseOnHover() {
 
   return (
     <div>
-      <h2 className="text-3xl md:text-3xl my-20">Projects</h2>
-      <Slider {...settings}>
+      <h2 className="text-2xl md:text-2xl my-20">Proyectos</h2>
+      <Slider {...settings} className= "mb-20">
         {projectsData.map((image) => (
           <div key={image.id} className="flex justify-center items-center px-2">
             <Link to={`/projects/${image.id}`}>
@@ -33,7 +27,7 @@ export function PauseOnHover() {
                 alt={`Slide ${image.nombre}`}
                 className="w-96 h-52 object-cover transition-transform transform hover:scale-105 mb-4"
               />
-              <h2 className="text-center">{image.nombre}</h2>
+              <h2 className="text-center mb-12">{image.nombre}</h2>
             </Link>
           </div>
         ))}

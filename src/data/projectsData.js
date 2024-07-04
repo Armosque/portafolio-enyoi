@@ -2,7 +2,7 @@ export const projectsData = [
     
     {
         id: 1,
-        nombre: "Aplicación de Gestión de Tareas",
+        nombre: "Aplicación Gestión de Tareas",
         descripcion: "Una aplicación para gestionar tareas, con funcionalidades como añadir,  eliminar y marcar tareas como completadas. Este proyecto muestra habilidades en operaciones CRUD, manejo de estado y almacenamiento local.",
         img:"https://i.ibb.co/stnZ659/todolist.jpg",
         git:"https://github.com/Armosque/todo-list",
@@ -11,7 +11,7 @@ export const projectsData = [
     {
         id: 2,
         nombre: "Data Sintética con CTGAN",
-        descripcion: "En este proyecto pone en práctica una técnica avanzada para la generación de datos sintéticos que preserva las propiedades estadísticas y las relaciones entre las variables presentes en el conjunto de datos original. Se basa en la arquitectura GAN, que consta de dos redes neuronales: un generador y un discriminador.",
+        descripcion: "En este proyecto se pone en práctica una técnica avanzada para la generación de datos sintéticos que preserva las propiedades estadísticas y las relaciones entre las variables presentes en el conjunto de datos original. Se basa en la arquitectura GAN, que consta de dos redes neuronales: un generador y un discriminador.",
         img:"https://i.ibb.co/174LydS/ml4.jpg",
         colab:"https://colab.research.google.com/drive/18gu3dO0cX76lmWqxEoMbDWqorSuxD11-?usp=sharing"
     },
@@ -41,7 +41,7 @@ export const projectsData = [
     },
     {
         id: 6,
-        nombre: "Predicción del Rendimiento Academico con AutoML Pycaret",
+        nombre: "Predicción - AutoML Pycaret",
         descripcion: "Este proyecto se centra en la predicción del rendimiento académico utilizando  datos de una universidad pública. El objetivo es construir modelos que puedan predecir el desempeño académico de los estudiantes con base en diversas variables usando Pycaret.",
         img:"https://i.ibb.co/MctpQ1J/ml5.jpg",
         colab:"https://colab.research.google.com/drive/1MbER56pazRBXTMzEsoxZmIAWEB5_wzpX?usp=sharing"

@@ -67,3 +67,23 @@ body{
 .electric-border {
   animation: electric-border 2s infinite alternate;
 }
+/* slick-custom.css */
+
+
+
+.slick-dots {
+  margin-top: 100px; /* Agrega margin-top a los dots */
+}
+
+.slick-dots li button:before {
+  content: "•";
+  font-size: 15px; /* Ajusta el tamaño de los dots */
+  color: gray; /* Color de los dots inactivos */
+  @apply text-gray-500; /* Aplica las clases de Tailwind */
+}
+
+/* Cambiar el color de los dots activos */
+.slick-dots li.slick-active button:before {
+  color: rgb(38, 164, 186); /* Color de los dots activos */
+  @apply text-blue-500; /* Aplica las clases de Tailwind */
+}
