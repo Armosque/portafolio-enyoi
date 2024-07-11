@@ -30,11 +30,11 @@ export const Contact = () => {
     swal("Gracias!", "Tu mensaje fue enviado con exito!", "success");
   };
   return (
-    <div className="contact-container">
-      <h2>Contact Me</h2>
+    <div className="contact-container mx-8 md:mx-auto ">
+      <h2>Contactame</h2>
       <form onSubmit={handleSubmit} className="contact-form">
         <div className="form-group">
-          <label htmlFor="name">Name</label>
+          <label htmlFor="name">Nombre</label>
           <input
             type="text"
             id="name"
@@ -56,7 +56,7 @@ export const Contact = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="message">Message</label>
+          <label htmlFor="message">Mensaje</label>
           <textarea
             id="message"
             name="message"

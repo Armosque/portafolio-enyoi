@@ -7,14 +7,14 @@
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     font-family: 'DM Sans', sans-serif;
-    color: aliceblue;
+    
     
 }
 
 .contact-container h2 {
     text-align: center;
     margin-bottom: 1.5rem;
-    color: #f8f3f3;
+    color: rgb(241, 245, 248);
     font-size: 18px;
 }
 

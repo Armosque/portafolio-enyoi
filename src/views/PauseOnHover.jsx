@@ -17,7 +17,7 @@ export function PauseOnHover() {
 
   return (
     <div>
-      <h2 className="text-2xl md:text-2xl my-20">Proyectos</h2>
+      <h2 className="text-2xl text-center md:text-2xl my-20">Proyectos</h2>
       <Slider {...settings} className= "mb-20">
         {projectsData.map((image) => (
           <div key={image.id} className="flex justify-center items-center px-2">

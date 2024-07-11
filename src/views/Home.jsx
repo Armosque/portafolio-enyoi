@@ -17,7 +17,7 @@ export const Home = () => {
         <article className="text-center mx-auto mt-8 w-[90%] md:text-left items-center px-4">
           <h1 className="text-2xl md:text-3xl">Soy Ana Mosquera</h1>
           <p className="text-2xl text-gray-color  md:text-2xl mt-3 mb-6 text-gradient h-auto font-black">
-            Desarrolladora Web y Analista de Datos
+            Desarrolladora Web Jr y Analista de Datos
           </p>
 
           <div className="flex flex-col justify-items-center mb-8">

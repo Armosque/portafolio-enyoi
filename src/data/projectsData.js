@@ -41,7 +41,7 @@ export const projectsData = [
     },
     {
         id: 6,
-        nombre: "Predicción - AutoML Pycaret",
+        nombre: "Predicción con AutoML Pycaret",
         descripcion: "Este proyecto se centra en la predicción del rendimiento académico utilizando  datos de una universidad pública. El objetivo es construir modelos que puedan predecir el desempeño académico de los estudiantes con base en diversas variables usando Pycaret.",
         img:"https://i.ibb.co/MctpQ1J/ml5.jpg",
         colab:"https://colab.research.google.com/drive/1MbER56pazRBXTMzEsoxZmIAWEB5_wzpX?usp=sharing"
