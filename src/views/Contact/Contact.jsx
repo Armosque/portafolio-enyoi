@@ -31,7 +31,7 @@ export const Contact = () => {
   };
   return (
     <div className="contact-container mx-8 md:mx-auto ">
-      <h2>Contactame</h2>
+      <h2>Contáctame</h2>
       <form onSubmit={handleSubmit} className="contact-form">
         <div className="form-group">
           <label htmlFor="name">Nombre</label>
