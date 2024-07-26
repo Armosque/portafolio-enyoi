@@ -12,7 +12,7 @@ export const projectsData = [
         id: 2,
         nombre: "Data Sintética con CTGAN",
         descripcion: "En este proyecto se pone en práctica una técnica avanzada para la generación de datos sintéticos que preserva las propiedades estadísticas y las relaciones entre las variables presentes en el conjunto de datos original. Se basa en la arquitectura GAN, que consta de dos redes neuronales: un generador y un discriminador.",
-        img:"https://i.ibb.co/5YB3ZTn/ia2.jpg",
+        img:"https://i.ibb.co/6W6DnFw/ia4.jpg",
         colab:"https://colab.research.google.com/drive/18gu3dO0cX76lmWqxEoMbDWqorSuxD11-?usp=sharing"
     },
     {
